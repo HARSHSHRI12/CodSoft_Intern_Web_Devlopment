@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style_cal.css"/>
+<title>CodSoft-Calculator</title>
+</head>
+<body>
+    <div class="cal-border">
+     <div class="cal-box">
+        <h3><div id="display"></div></h3>
+     </div>
+    
+    <div class="cal-button">
+        <div id="btn1">
+        <button onclick="appendOperator('%')">%</button>  
+    </div>
+    <div id="btn1">
+        <button onclick="clearDisplay('CE')">CE</button> 
+    </div>
+    <div id="btn1">
+        <button onclick="clearDisplay('C')">C</button>
+    </div>
+    <div id="btn1">
+        <button onclick="clearDisplay('⌫')">⌫</button>    
+    </div>  
+</div>
+<div class="cal-button">
+    <div id="btn1">
+    <button onclick="appendOperator('1/x')">1/x</button>  
+</div>
+<div id="btn1">
+    <button onclick="appendOperator('x²')">x²</button> 
+</div>
+<div id="btn1">
+    <button onclick="appendOperator('2√x')">2√x</button>
+</div>
+<div id="btn1">
+    <button onclick="appendOperator('÷')"> ÷</button>    
+</div>  
+</div>
+<div class="cal-button">
+    <div id="btn1">
+    <button onclick="appendNumber('7')">7</button>  
+</div>
+<div id="btn1">
+    <button onclick="appendNumber('8')">8</button> 
+</div>
+<div id="btn1">
+    <button onclick="appendNumber('9')">9</button>
+</div>
+<div id="btn1">
+    <button onclick="appendOperator('*')">*</button>    
+</div>  
+</div>
+<div class="cal-button">
+    <div id="btn1">
+    <button onclick="appendNumber('4')">4</button>  
+</div>
+<div id="btn1">
+    <button onclick="appendNumber('5')">5</button> 
+</div>
+<div id="btn1">
+    <button onclick="appendNumber('6')">6</button>
+</div>
+<div id="btn1">
+    <button onclick="appendOperator('-')">-</button>    
+</div>  
+</div>
+<div class="cal-button">
+    <div id="btn1">
+    <button onclick="appendNumber('1')">1</button>  
+</div>
+<div id="btn1">
+    <button onclick="appendNumber('2')">2</button> 
+</div>
+<div id="btn1">
+    <button onclick="appendNumber('3')">3</button>
+</div>
+<div id="btn1">
+    <button onclick="appendOperator('+')">+</button>    
+</div>  
+</div>
+<div class="cal-button">
+    <div id="btn1">
+    <button onclick="appendOperator('+/-')">+/-</button>  
+</div>
+<div id="btn1">
+    <button onclick="appendNumber('0')">0</button> 
+</div>
+<div id="btn1">
+    <button onclick="appendOperator('.')">.</button>
+</div>
+<div id="btn1">
+    <button onclick="calculate('=')">=</button>    
+</div>  
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,403 @@
+
+.logo{
+    background-image: url("logo2.png");
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 300px;
+    color: white;
+}
+ul{
+    position: relative;
+    color: black;  
+    display: flex;
+    justify-content: space-evenly; 
+    bottom: 60px; 
+    left: 150px;
+    font-size: 25px;
+   
+}
+li{
+list-style-type: none;
+font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+a li{
+    color: rgb(162, 77, 77);
+}
+a li:hover{
+    color: black;
+}
+.img-pro{
+    position: absolute;
+   background-image: url("harsh.jpg");
+    height: 550px;
+    width: 450px;
+    background-repeat: no-repeat;
+    left: 1500px;
+    border: 3px solid rgb(228, 115, 29), rgb(192, 47, 117);
+    background-size: cover;
+    top: 200px;
+    border-radius: 25%;
+    
+}
+
+#name{
+    position: absolute;
+    top: 200px;
+    left: 350px;
+    text-align: center;   
+   color: rgb(61, 58, 58);
+    transition-duration: 0s;
+}
+#name:hover{
+margin-right: 10px;
+color: black;
+font-size: 35px;
+}
+#para{
+    position: absolute;
+    top: 330px;
+    left: 290px;
+    font-size: 23px;
+    color:rgb(113, 105, 91);
+    
+}
+#para:hover{
+    color: rgb(60, 55, 45);
+    font-size:23.3px ;
+}
+#undrLine {
+    border: 1px;
+    background-image: linear-gradient(
+      to right,
+      rgb(228, 115, 29),
+      rgb(192, 47, 117)
+    );
+    position: relative;
+    height: 5px;
+    width: 190px;
+    left: 340px;
+    top: 135px;
+  }
+  #undrLine:hover{
+    width:350px ;
+  }
+  .social-M{
+    position: relative;
+    top: 550px;
+    left: 300px;
+    font-size: 40px;  
+  }
+  span{
+    margin-left: 50px;
+  }
+  .btn{
+    position: relative;
+    top: 650px;
+    left: 250px;  
+    display: flex;
+    
+  }
+  button{
+    font-size: 35px;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: white;
+    background-color:rgb(7, 7, 30) ;
+    padding: 10px;
+    
+  }
+  .btn2{
+    margin-left: 100px;
+  }
+  .skills-sec{
+    position: absolute;
+    top: 1100px;   
+    
+    background-repeat: no-repeat;
+  height: 1000px;
+  width: 600px;
+  border-radius: 20%;
+  margin-left: 10px;
+  }
+  .skill-span{
+    position: absolute;
+    font-size: 10px;
+    bottom: 850px;
+    left: 900px;
+    top: 30px;
+    margin-top:40px ;
+  }
+  span{
+    margin-top: 60px;
+    font-size: 55px;
+  }
+  
+  #heading{
+    font-size: 45px;
+     
+  }
+  .skill-cont{
+    width: 1000px;
+    height: 450px;
+ 
+  }
+#para-describe{
+  font-size: 20px;
+  color:rgb(113, 105, 91);
+}
+.icons{
+  position: absolute;
+  top: 300px;
+  width: 600px;
+  margin-left: 40px;
+ 
+  color: black;
+}
+footer{
+  position: relative;
+  top: 3000px;
+  height: 200px;
+  width: 2000px;
+  background-color: rgb(19, 18, 18);
+  color: white;
+}
+#set-c{
+  position: relative;
+  top: 70px;
+  left: 100px;
+  font-size: 25px;
+}
+#set-e{
+  position:absolute;
+  top: 45px;
+  left:750px;
+  font-size: 25px;
+}
+#set-p{
+  position:absolute;
+  top: 45px;
+  left:1600px;
+  font-size: 25px;
+}
+* {box-sizing: border-box}
+
+.container {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html {width: 90%; background-color: #04AA6D;}
+.css {width: 80%; background-color: #2196F3;}
+.js {width: 65%; background-color: #f44336;}
+.react {width: 80%; background-color: #432588;}
+.Cplush {width: 80%; background-color: #76091e;}
+.mongo {width: 75%; background-color: #56570f;}
+.node {width: 70%; background-color: #26751b;}
+p{
+  font-size: 20px;
+  color: rgb(10, 4, 4);
+}
+.all-skill-cont{
+  margin-left: 50px;
+}
+.skill-img2{
+  position: absolute;
+  left: 1100px;
+  top: 800px;
+ 
+}
+.project-sec{
+  position: relative;
+  top: 2550px;
+  font-size: 40px;
+  left: 80px;
+}
+#undrLine2 {
+  border: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgb(228, 115, 29),
+    rgb(192, 47, 117)
+  );
+  position: relative;
+  height: 5px;
+  width: 110px;
+  bottom: 40px; 
+}
+.para-proj{
+  position: relative;
+  top: 2520px;
+  left: 55px;
+  font-size: 80px;
+}
+.box-control{
+  position: relative;
+  top:2700px;
+  background-color: #ffffff;
+  height: 450px;
+  width: 2000px;
+  display: flex;
+  transition:left  0ms;
+}
+@keyframes slide{
+  from{
+    left:0;
+  }
+  to{
+    left:1000px;
+  }
+}
+.box-control{
+  animation: slide 1s linear;
+}
+.box-control:hover{
+background-color: #f4f0f0;
+border-radius: 50px;
+box-shadow: inset 5px 5px 500px black;
+}
+.first,.second,.thired{
+  position: relative;
+  left: 40px;
+  top: 20px;
+border-radius: 50px;
+
+}
+.first{
+background-color: #6ca26c;
+height: 300px;
+width: 500px;
+margin-left: 90px;
+box-shadow: inset 20px 5px 30px black ;
+}
+
+.second{
+  background-color: #354435;
+  height: 300px;
+  width: 500px;
+  margin-left: 150px;
+  box-shadow: inset 20px 5px 30px rgb(8, 38, 0) ;
+  }
+  .thired{
+    background-color: #c2e6c2;
+    height: 300px;
+    width: 500px;
+    margin-left: 150px;
+    box-shadow: inset 20px 5px 30px black ;
+    }
+    #set-p_name{
+      margin-left: 10px;
+    }
+    #set-p_disc{
+      margin-left:10px ;
+      color:rgb(26, 16, 7);
+    }
+    #undrLine3 {
+      border: 1px;
+      background-image: linear-gradient(
+        to right,
+        rgb(228, 115, 29),
+        rgb(192, 47, 117)
+      );
+      position: relative;
+      height: 5px;
+      width: 150px;
+      bottom: 20px; 
+      left: 10px;
+    }
+    .achi-head{
+      position: relative;
+     top: 2650px;
+     margin-left: 70px;
+     font-size: 30px;
+
+    }
+    .achiv{
+      position: relative;
+      top: 2800px;
+      width: 2000px;
+      height: 600px;
+      background-color: #030009;
+      display: flex;
+      border-radius: 400px;
+      box-shadow: inset 10px 10px 15px white;
+     
+    }
+    .achiv1,.achiv2,.achiv3,.achiv4{
+      background-color: #6ca26c;
+      border-radius: 50px;
+      box-shadow: inset 10px 10px 40px black;
+     
+    }
+    .achiv1{
+      background-color: #bb6d67;
+     margin-left: 20px;
+      height: 650px;
+      width: 500px;
+    }
+    .achiv2{
+      background-color: #698ba7;
+      margin-left: 20px;
+      height: 650px;
+      width: 500px;
+    }
+    .achiv3{
+      background-color: #9e5c69;
+      margin-left: 20px;
+      height: 650px;
+      width: 500px;
+    }
+    .achiv4{
+      background-color: #7c9a7c;
+      margin-left: 20px;
+      height: 650px;
+      width: 500px;
+    }
+    .resume-section {
+    position: relative;
+    top: 3000px;
+  }
+ h2{
+  font-size: 40px;
+ }
+  .resume-link {   
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #ffffff;
+      text-decoration: none;
+      border-radius: 10px;
+      font-size: 30px;
+      margin-top: 20px;
+      box-shadow: inset 5px 5px 5px black;
+  }
+  
+  .resume-link:hover {
+      background-color: #0056b3;
+  }
+  #undrLine4 {
+    border: 3px;
+    background-image: linear-gradient(
+      to right,
+      rgb(228, 115, 29),
+      rgb(192, 47, 117)
+    );
+    position: relative;
+    height: 7px;
+    width: 290px;
+    bottom: 20px; 
+    left: 10px;
+  }
+  .btn-d{
+    margin-top: 50px;
+    margin-left: 300px;
+    
+  }
